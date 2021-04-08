@@ -63,6 +63,7 @@ svn co https://github.com/immortalwrt/packages/branches/openwrt-18.06/net/gost p
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/luci-app-eqos
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-advancedsetting package/luci-app-advancedsetting
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+git clone https://github.com/lkisme/luci-app-serverchand.git package/luci-app-serverchand
 # cd package/luci-app-serverchan && git reset --hard 6387b3b47b03d95d3f3bcd42ff98db5bb84fd056 && git pull && cd ../..
 svn co https://github.com/brvphoenix/wrtbwmon/trunk/wrtbwmon package/wrtbwmon
 git clone https://github.com/brvphoenix/luci-app-wrtbwmon
